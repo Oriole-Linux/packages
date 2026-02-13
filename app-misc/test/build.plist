@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>test</string>
+    <key>version</key>
+    <string>1.0</string>
+    <key>desc</key>
+    <string>A test package</string>
+    <key>maintainer</key>
+    <string>George K. <gk_coder@icloud.com></string>
+    <key>source</key>
+    <string>https://raw.githubusercontent.com/oriole-linux/packages/main/app-misc/test/test-1.0.tar.gz</string>
+    <key>checksum</key>
+    <string>n/a</string>
+    <key>deps</key>
+    <array />
+    <key>configuring</key>
+    <string>./configure</string>
+    <key>build</key>
+    <string>make</string>
+    <key>install</key>
+    <string>mkdir -p STAGING && make install</string>
+    <key>stagingFlag</key>
+    <string>DESTDIR=STAGING</string>
+    <key>post</key>
+    <string></string>
+    <key>remove</key>
+    <string>make uninstall</string>
+</dict>
+</plist>
