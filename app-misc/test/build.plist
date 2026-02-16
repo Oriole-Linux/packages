@@ -25,7 +25,7 @@
     <key>install</key>
     <string>DESTDIR=STAGING make install</string>
     <key>post</key>
-    <string>echo "Wow! The installation worked! Why don't you fire up a shell and type 'test' now?"</string>
+    <string>echo "Wow! The installation worked! Why don't you fire up a shell and type 'tester' now?"</string>
     <key>remove</key>
     <string>make uninstall</string>
 </dict>
