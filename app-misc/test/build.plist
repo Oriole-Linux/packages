@@ -19,15 +19,13 @@
     <key>deps</key>
     <array />
     <key>configuring</key>
-    <string>./configure</string>
+    <string>mkdir -p STAGING &amp;&amp; ./configure</string>
     <key>build</key>
     <string>make</string>
     <key>install</key>
-    <string>mkdir -p STAGING &amp;&amp; make install</string>
-    <key>stagingFlag</key>
-    <string>DESTDIR=STAGING</string>
+    <string>DESTDIR=STAGING make install</string>
     <key>post</key>
-    <string></string>
+    <string>echo "Wow! The installation worked! Why don't you fire up a shell and type 'test' now?"</string>
     <key>remove</key>
     <string>make uninstall</string>
 </dict>
