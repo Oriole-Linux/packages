@@ -19,7 +19,7 @@
     <key>deps</key>
     <array />
     <key>configuring</key>
-    <string>mkdir -p STAGING &amp;&amp; ./configure</string>
+    <string>mkdir -p STAGING &amp;&amp; sh configure --prefix=/usr</string>
     <key>build</key>
     <string>make</string>
     <key>install</key>
