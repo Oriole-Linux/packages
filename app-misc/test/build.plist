@@ -6,6 +6,8 @@
     <string>test</string>
     <key>version</key>
     <string>1.0</string>
+    <key>category</key>
+    <string>app-misc</string>
     <key>desc</key>
     <string>A test package</string>
     <key>maintainer</key>
