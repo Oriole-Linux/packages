@@ -21,7 +21,7 @@
     <key>build</key>
     <string>make</string>
     <key>install</key>
-    <string>mkdir -p STAGING && make install</string>
+    <string>mkdir -p STAGING &amp;&amp; make install</string>
     <key>stagingFlag</key>
     <string>DESTDIR=STAGING</string>
     <key>post</key>
