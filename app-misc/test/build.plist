@@ -13,7 +13,7 @@
     <key>maintainer</key>
     <string>George K. &lt;gk_coder@icloud.com&gt;</string>
     <key>source</key>
-    <string>https://raw.githubusercontent.com/oriole-linux/packages/main/app-misc/test/test-1.0.tar.gz</string>
+    <string>https://raw.githubusercontent.com/oriole-linux/packages/master/app-misc/test/test-1.0.tar.gz</string>
     <key>checksum</key>
     <string>n/a</string>
     <key>deps</key>
